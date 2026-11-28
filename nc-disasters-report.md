@@ -12,6 +12,14 @@ Delivery D1 (Report) for Synmerco escrow `esc_21f678bebc9e4958bd5020fe`, intent 
 
 Each CSV has exactly the 11 columns `id, femaDeclarationString, disasterNumber, declarationType, incidentType, declarationTitle, designatedArea, fipsCountyCode, declarationDate, incidentBeginDate, incidentEndDate`, one row per declaration row returned, sorted by declarationDate, then id; key column id.
 
+## synmerco-data
+
+```synmerco-data
+714bec8cd2bd7514507e2c317684e3e86c92fb698bdbff8bf1797297e60b91ca nc-disasters-pull1.csv
+cd9f28ddaad6fa4fec1e48ae81ca0bc124240dfcce5069c065bb890cfbf4f7fb nc-disasters-pull2.csv
+cd9f28ddaad6fa4fec1e48ae81ca0bc124240dfcce5069c065bb890cfbf4f7fb nc-disasters-pull3.csv
+```
+
 ## Summary counts (PULL 3)
 
 - Rows: **1770**. Distinct disaster numbers: **51** (distinct major-disaster (DR) numbers: **29**).
